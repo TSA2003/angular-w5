@@ -1,0 +1,8 @@
+@for (item of matches; track $index) {
+    <div class="item">
+        <p>Match: {{item.name}}</p>
+        <p>Starting Time: {{item.starting_at}}</p>
+        <p>Result: {{item.result_info}}</p>
+    </div>
+  }
+<button (click)="backButtonClick()">Back</button>
